@@ -1,0 +1,103 @@
+.Sidebar {
+    min-height: 100vh;
+    background-color: #efefef;
+    padding: 20px 15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 0.3s ease, padding 0.3s ease;
+    
+}
+
+.Sidebar .img {
+    width: 20px; 
+    height: 24px; 
+}
+
+.Sidebar .menu {
+    display: block;
+    margin-bottom: 30px; 
+    cursor: pointer; 
+    margin-left: 15px;
+}
+
+.New-Chat {
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px; 
+    gap: 2px; 
+    padding: 12px 15px; 
+    background-color: #e6eaf1;
+    border-radius: 12px; 
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+    transition: background-color 0.2s; 
+}
+
+.New-Chat:hover {
+    background-color: #d0d6e1; 
+}
+
+.Recent {
+    margin-top: 15px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.Recent-entry {
+    display: flex;
+    align-items: center; 
+    gap: 12px; 
+    padding: 12px; 
+    border-radius: 8px; 
+    color: #282828;
+    cursor: pointer;
+    overflow: hidden; 
+    max-width: 100%; 
+    transition: background-color 0.3s; 
+}
+
+.Recent-entry p {
+    margin: 0; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    flex-grow: 1; 
+}
+
+.Recent-entry:hover {
+    background-color: #d0d6e1; 
+}
+
+.Recent-Title {
+    margin: 30px 0 15px; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+.Sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom-Item {
+    display: flex; 
+    align-items: center; 
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s; 
+}
+
+.Bottom-Item:hover {
+    background-color: #e6eaf1;
+}
+
+.Bottom-Item p {
+    margin: 0; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;  
+    flex-grow: 1; 
+}

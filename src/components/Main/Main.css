@@ -1,0 +1,80 @@
+.Main {
+    flex: 1;
+    padding-bottom: 10px;
+    min-width: 100vh;
+    position: relative;
+}
+
+.Main .nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    color: #585858;
+}
+
+.Main .nav .pfp {
+    width: 30px; 
+    height: auto; 
+    border-radius: 30%;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.greet {
+    font-size: 56px; 
+    color: #c4c5c7;
+    margin: 30px 0;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.main-container .greet span {
+    background: linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text; 
+    -moz-background-clip: text;     
+    background-clip: text;          
+    -webkit-text-fill-color: transparent; 
+    color: transparent;            
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 10px; 
+}
+
+.container .card {
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    padding: 10px;
+    height: 170px;
+    position: relative;
+    cursor: pointer;
+}
+
+.img {
+    width: 40px; 
+    height: auto; 
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 4px;
+}
+
+.main-container .card p{
+    color: #545454;
+    font: 16px;
+}
+.main-container .container :hover{
+    background-color: #d8d8d8;
+}
+.main-container .container  :hover p{
+    color: #000000;
+}
