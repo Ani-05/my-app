@@ -46,8 +46,10 @@
 }
 
 .Recent-entry {
+    position: relative;
     display: flex;
     align-items: center; 
+    justify-content: space-between;
     gap: 12px; 
     padding: 12px; 
     border-radius: 8px; 

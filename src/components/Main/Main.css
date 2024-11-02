@@ -58,7 +58,7 @@
     cursor: pointer;
 }
 
-.img {
+.compass, .bulb, .chat, .code {
     width: 40px; 
     height: auto; 
     border-radius: 20px;

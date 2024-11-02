@@ -17,8 +17,13 @@ const Sidebar = () => {
                     <div className='Recent'>
                         <p className='Recent-Title'>Recent</p>
                         <div className='Recent-entry'>
-                            <assets.Chat className='chat img' alt="Chat" />
-                            <p>What is React</p>
+                            <assets.Chat className='' style={{width: '20px', height: '24px'}} alt="Chat" />
+                            <p style={{
+                                width: '100px',
+                                overflow: 'hidden',
+                                whiteSpace: 'nowrap',
+                                textOverflow: 'ellipsis'
+                            }}>What is Reactendra</p>
                         </div>
                     </div>
                     ): null}
